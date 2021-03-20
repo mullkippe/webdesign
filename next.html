@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>下層ページの構成とは - WebDesign</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/next.css">
+</head>
+<body>
+  <div id="wrapper">
+    <header>
+      <!--サイト名は大見出しを設定する-->
+      <h1>WebDesign</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a class="active" href="next.html">下層ページの構成</a></li>
+          <li><a href="#">お問い合わせ</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <article>
+        <h1>下層ページの構成とは</h1>
+        <section>
+          <h2>下層ページの大見出し</h2>
+          <p>下層ページの大見出しは、mainの見出しとなる。headerのh1とmainのh1が存在することになる。</p>
+        </section>
+        <section>
+          <h2>下層ページに使われる要素</h2>
+          <ul>
+            <li>大見出し（h1）を含むメインコンテンツを囲むarticleタグ</li>
+            <li>大見出し（h1）以外の見出しとその内容をグループ化するsectionタグ</li>
+            <li>現在のページの階層を明示するパンくずリストは、番号付きリスト（olタグ）</li>
+            <li>バナーや注意書きなどの補足情報は、asideタグ</li>
+          </ul>
+        </section>
+      </article>
+      <p class="homelink"><a href="index.html">HOMEに戻る</a></p>
+    </main>
+  </div>
+
+  <footer>
+    <p><small>©︎2020 Design Gakkou. All Rights Reserved.</small></p>
+  </footer>
+
+</body></html>

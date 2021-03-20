@@ -1,0 +1,40 @@
+@import url(common.css);
+
+/*［メインビジュアルの書式］背景色:任意*/
+p.visual {
+  background-color: red;
+}
+
+/*［sectionの書式］背景色:任意、内側余白:20px、外側上下余白:20px*/
+main section {
+  background-color: azure;
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/*［main section h2の書式］文字色:任意、文字サイズ:20px、太字、下ボーダー（線幅:3px、線種:直線、線カラー:文字色と同じ）、文字とボーダー間の余白:5px、外側下余白:10px*/
+main section h2 {
+  color: blue;
+  font-size: 20px;
+  font-weight: bold;
+  border-bottom: 3px solid blue;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+/*［main section pの書式］行の高さ:文字サイズの1.5倍*/
+main section p {
+  line-height: 1.5;
+}
+
+/*［main section.secの書式］背景色:任意*/
+main section.sec {
+  background-color: cornsilk;
+}
+
+/*［main section.sec h2の書式］文字色:任意、下ボーダー線カラー:文字色と同じ*/
+main section.sec h2 {
+  color: brown;
+  border-bottom-color: brown;
+}
